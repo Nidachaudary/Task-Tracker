@@ -1,0 +1,117 @@
+/* Overall setting */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* alert font size */
+.alert-fontSize{
+  font-size: 20px;
+}
+/* footer font size */
+.footer-fontsize {
+  font-size: 30px;
+}
+/* BoxDisplay */
+.displayBox {
+  padding: 20px 35px 30px 35px;
+}
+.displayBox:hover {
+  border: 1px solid rgb(23, 169, 226);
+  box-shadow: 0px 0px 25px whitesmoke;
+}
+
+/* Input setting */
+.inputSet {
+  width: 540px;
+  font-size: 20px;
+}
+
+.inputSet:hover {
+  box-shadow: 0px 0px 7px rgb(23, 169, 226);
+}
+
+/* CheckBox margin */
+.checkBoxSet {
+  margin-top: 9px;
+  font-size: 20px;
+}
+
+.listElement:hover {
+  box-shadow: 0px 0px 7px rgb(23, 169, 226);
+}
+
+/* Icons Setting */
+
+/* Plus Icon */
+.iconPlus {
+  font-size: 40px;
+  color: white;
+  background-color: red;
+}
+.iconPlus:hover {
+  box-shadow: 0px 0px 7px red;
+}
+
+/* Edit Icon */
+.fontHeaderEditIcon {
+  font-size: 40px;
+}
+
+.fontEditIcon {
+  font-size: 25px;
+}
+.iconEdit {
+  color: black;
+  background-color: rgba(0, 225, 255, 0.877);
+  border: 1px solid rgba(0, 225, 255, 0.877);
+}
+.iconEdit:hover {
+  box-shadow: 0px 0px 7px rgba(0, 225, 255, 0.877);
+}
+
+/* Del Icon */
+.iconDel {
+  font-size: 25px;
+  color: whitesmoke;
+  background-color: red;
+  border: 1px solid red;
+}
+.iconDel:hover {
+  box-shadow: 0px 0px 7px red;
+}
+
+/* Footer margin */
+
+.btnDellAll {
+  font-size: 20px;
+  border: none;
+  color: white;
+  background-color: red;
+}
+.btnDellAll:hover {
+  box-shadow: 0px 0px 7px red;
+}
+/* Media Queries */
+@media (max-width: 650px) {
+  .inputSet {
+    width: 265px;
+  }
+  .listElement {
+    width: 320px;
+  }
+  .displayBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+  }
+  .heading-fontSize {
+    font-size: 15px;
+  }
+  .paddingFooter {
+    padding: 0px 0px;
+  }
+}
