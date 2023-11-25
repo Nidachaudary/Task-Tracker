@@ -126,7 +126,7 @@ function App() {
 
   return (
     <>
-    <div className={`alert ${color}  text-center alert-fontSize fw-bold mt-0 mb-4`}>{alertMsg}</div>
+    <div className={`alert ${color} ${color==='alert-success'? "greenColorSet":color==='alert-danger'?"redColorSet":" "} text-center text-light b-none alert-fontSize fw-bold mt-0 mb-4`}>{alertMsg}</div>
     <div>
    
       <Todos

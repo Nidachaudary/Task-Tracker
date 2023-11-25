@@ -20,8 +20,17 @@
 }
 .displayBox:hover {
   border: 1px solid rgb(23, 169, 226);
-  box-shadow: 0px 0px 25px whitesmoke;
+ 
 }
+/* background color for alert */
+.greenColorSet{
+background-color: rgb(37, 134, 37);
+border: none;
+}
+.redColorSet{
+  background-color: rgb(235, 87, 87);
+  border:none;
+  }
 
 /* Input setting */
 .inputSet {
